@@ -1,0 +1,74 @@
+[
+  {
+    "ID": "3-5.4",
+    "Name": "Item Definition",
+    "ISO Ref": "3:5.4",
+    "Inputs (ISO Ref)": "Stakeholder Requirements",
+    "Outputs (ISO Ref)": "System Definition (3:5.4.2)",
+    "Content (ISO Ref)": "Functions, environment, boundaries (3:5.4.2)"
+  },
+  {
+    "ID": "3-6.4",
+    "Name": "HARA",
+    "ISO Ref": "3:6.4",
+    "Inputs (ISO Ref)": "Item Definition (3:5.4)",
+    "Outputs (ISO Ref)": "Safety Goals (3:6.4.3)",
+    "Content (ISO Ref)": "ASIL, Severity, Controllability (3:6.4.4)"
+  },
+  {
+    "ID": "3-7.4",
+    "Name": "Functional Safety Concept",
+    "ISO Ref": "3:7.4",
+    "Inputs (ISO Ref)": "Safety Goals (3:6.4.3)",
+    "Outputs (ISO Ref)": "Functional Safety Requirements (3:7.4.3)",
+    "Content (ISO Ref)": "Safe states, functional decomposition (3:7.4.4)"
+  },
+  {
+    "ID": "4-5.4",
+    "Name": "Technical Safety Requirements",
+    "ISO Ref": "4:5.4",
+    "Inputs (ISO Ref)": "FSRs (3:7.4.3)",
+    "Outputs (ISO Ref)": "TSRs (4:5.4.3)",
+    "Content (ISO Ref)": "ASIL constraints, interfaces (4:5.4.4)"
+  },
+  {
+    "ID": "4-6.4",
+    "Name": "System Architecture Design",
+    "ISO Ref": "4:6.4",
+    "Inputs (ISO Ref)": "TSRs (4:5.4.3)",
+    "Outputs (ISO Ref)": "System Design (4:6.4.3)",
+    "Content (ISO Ref)": "HW/SW interface structure (4:6.4.4)"
+  },
+  {
+    "ID": "5-6.4",
+    "Name": "HW Design",
+    "ISO Ref": "5:6.4",
+    "Inputs (ISO Ref)": "HW Requirements (5:5.4.3)",
+    "Outputs (ISO Ref)": "HW Architecture (5:6.4.3)",
+    "Content (ISO Ref)": "Redundancy, layout (5:6.4.4)"
+  },
+  {
+    "ID": "6-5.4",
+    "Name": "SW Architecture",
+    "ISO Ref": "6:5.4",
+    "Inputs (ISO Ref)": "SW Requirements (6:4.4.3)",
+    "Outputs (ISO Ref)": "SW Architecture (6:5.4.3)",
+    "Content (ISO Ref)": "Modules, error handling (6:5.4.4)"
+  },
+  {
+    "ID": "4-6.5",
+    "Name": "Hardware-Software Interface (HSI)",
+    "ISO Ref": "4:6.5",
+    "Inputs (ISO Ref)": "System Architecture (4:6.4.3)",
+    "Outputs (ISO Ref)": "HSI Specification (4:6.5.3)",
+    "Content (ISO Ref)": "Defined SW-HW interactions (4:6.5.4)"
+  },
+  {
+    "ID": "9-6.4",
+    "Name": "Dependent Failure Analysis",
+    "ISO Ref": "9:6.4",
+    "Inputs (ISO Ref)": "System, HW (5:6.4.3), SW (6:5.4.3), HSI (4:6.5.3)",
+    "Outputs (ISO Ref)": "DFA Report (9:6.4.4)",
+    "Content (ISO Ref)": "Common cause failures, interfaces (9:6.4.4)"
+  }
+]
